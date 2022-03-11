@@ -1,0 +1,61 @@
+@font-face {
+    font-family: vazir-bold;
+    src: url(../assets/fonts/Vazir-Bold.eot) format("eot");
+    src: url(../assets/fonts/Vazir-Bold.ttf) format("ttf"),
+    url(../assets/fonts/Vazir-Bold.woff) format("woff"),
+    url(../assets/fonts/Vazir-Bold.woff2)format("woff2");
+    font-weight:bolder;
+    font-style: normal;
+}
+*{
+    font-family: vazir-bold;
+}
+body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+
+.header{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.questions-wrapper{
+    border: 1px solid rgb(238, 233, 233);
+    border-radius:20px;
+    /* padding: 15px; */
+}
+.q-header{
+    padding: 15px;
+}
+.question{
+    font-size: 18px;
+}
+.answer{
+    max-height:0px;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0px;
+    margin-bottom: 0px;
+    transition: all 2s ease;
+    padding:0px 15px 0px 5px;
+    text-align: justify;
+    line-height: 21px;
+}
+
+div.open span{
+    transform: rotate(180deg);
+}
+div.open h5{
+    color:#0d6efd!important;
+}
+
+.q-header:hover{
+    cursor: pointer;
+}
+.q-header:hover h5{
+    color:#0d6efd!important;
+}
+.q-header span{
+    cursor: pointer;
+    
+}
